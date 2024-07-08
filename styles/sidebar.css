@@ -1,0 +1,53 @@
+.sidebar{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(216, 216, 216);
+    z-index: 200;
+}
+
+.home,
+.exp,
+.subs,
+.ori,
+.music,
+.lib{
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.home:hover,
+.exp:hover,
+.subs:hover,
+.ori:hover,
+.music:hover,
+.lib:hover{
+    background-color: rgb(217, 216, 216);
+}
+
+.home img,
+.exp img,
+.subs img,
+.ori img,
+.music img,
+.lib img{
+    width: 25px;
+}
+
+.s-lab{
+    font-family: Roboto,arial;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 4px;
+}
